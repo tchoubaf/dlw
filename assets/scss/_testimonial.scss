@@ -98,7 +98,7 @@
 }
 .testimonia-item-active .slick-arrow::before {
     content: "";
-    border: 2px solid $green;
+    border: 2px solid #000000;
     position: absolute;
     height: 62px;
     width: 62px;
@@ -117,7 +117,7 @@
     visibility: visible; 
 }
 .testimonia-item-active .slick-arrow:hover {
-     background: $red;
+     background: $black;
 }
 .testimonia-item-active .slick-dots {
     text-align: center;
@@ -146,7 +146,7 @@
 }
   
 .testimonia-item-active .slick-dots li.slick-active button {
-    background: $green;
+    background: $black;
 }
 .test-button {
 	margin-top: 104px;
@@ -188,7 +188,7 @@
 .slick-center .testimonial-wrapper{box-shadow: 0px 7px 29.7px 0.3px rgba(234, 234, 234, 0.78);}
  // arrow-style
  .testimonial-active .slick-arrow {
-    background: $green;
+    background: $black;
     font-size: 16px;
     left: -53px;
     opacity: 0;
@@ -213,7 +213,7 @@
 }
 .testimonial-active .slick-arrow::before {
     content: "";
-    border: 2px solid $green;
+    border: 2px solid $black;
     position: absolute;
     height: 62px;
     width: 62px;
@@ -222,7 +222,7 @@
     border-radius: 5px;
     transition: .3s;
 }
-.testimonial-active .slick-arrow:hover::before{border-color:$red;}
+.testimonial-active .slick-arrow:hover::before{border-color:$black;}
 .testimonial-active .slick-next {
 left: auto;
 right: -53px;
@@ -256,12 +256,12 @@ visibility: visible; }
     transition: .3s;
     padding: 0;
     border-radius: 50%;
-    background: $green;
+    background: $black;
     border: none; 
     position: relative;
 }
   
 .testimonial-active .slick-dots li.slick-active button {
-    background: $red;
+    background: $black;
 }
   

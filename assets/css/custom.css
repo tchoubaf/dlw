@@ -218,6 +218,39 @@ p {
     color: #ffffff;
 }
 
+.red-btn {
+    background: #f6be00;
+    color: #000;
+}
+
+.testimonial-thumb > img {
+    border: 2px dashed transparent;
+    border-radius: 0%;
+    /* height: 125px; */
+    /* width: 125px; */
+    padding: 5px;
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.slick-slide img {
+    display: block;
+}
+
+
+
+.testimonia-item-active .slick-arrow {
+    background: #f6be00;
+    font-size: 16px;
+   /* left: -20px; */
+    top: 45%;
+}
+
+
+
+
+
 
 
 
