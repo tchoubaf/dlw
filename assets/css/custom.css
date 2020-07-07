@@ -351,8 +351,30 @@ p {
     color: black;
 }
 
+.history-wrapper:hover {
+    background-color: #f6be00;
+}
 
+.history-arrow:hover::before {
+    border-color: #f6be00 transparent transparent transparent;
+}
 
+.history-arrow-2::after {
+    background: #f6be00;
+}
+
+.history-arrow::after {
+    background: #f6be00;
+}
+
+.history-arrow-2:hover::before {
+    border-color: transparent transparent #f6be00 transparent;
+}
+
+.history-line:hover::before {
+    background: #f6be00;
+    color: #ffffff;
+}
 
 
 
